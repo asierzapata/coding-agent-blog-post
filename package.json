@@ -1,0 +1,15 @@
+{
+  "name": "coding-agent-blog-post",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is the code of my coding afent blog post",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Asier Zapata",
+  "license": "MIT",
+  "dependencies": {
+    "ollama": "^0.6.3"
+  }
+}
