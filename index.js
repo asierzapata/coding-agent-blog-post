@@ -256,8 +256,7 @@ async function callAgent(messages) {
   process.stdout.write(`${styleText(["yellowBright", "bold"], "Agent")}: `);
 
   const response = await ollama.chat({
-    model: "ministral-3:8b",
-    // model: "devstral-small-2:24b",
+    model: "devstral-small-2:24b",
     messages,
     stream: true,
     tools,
